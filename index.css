@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
+/***** Other *****/
+*{
+    transition: 0.5s;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    color: #d8d8d8;
+    text-align: center;
+    transition: 0.1s;
+}
+html body {
+    background-color:#141414;
+}
+
+@media only screen and (max-width: 480px){
+    html,body {
+           width: 100%;
+           height: 100%;
+           margin: 0;
+           padding: 0;
+    }
+}
+
+/***** End Other *****/
+
+
+
+/***** Start Navbar *****/
+
+nav h3{
+    margin: 8px 0px 8px 30px;
+    color: #d3d3d3;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+nav h3:hover{
+    color:white;
+}
+
+#navTop {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 0px 0px;
+    z-index: 100000000000000000000;
+}
+
+nav ul{
+    margin: 10px 30px 0px 0px;
+    padding: 0;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor:pointer;
+}
+
+nav ul li a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #d3d3d3;
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+nav button {
+    text-decoration: none;
+    border-radius: 3px;
+    border: 0px;
+    background-color: #250c4a;
+    color:#d8d8d8;
+    padding: 6px 2vw;
+    font-size: 1rem;                                      
+    font-weight: bold;
+    margin-right: 9px;
+}
+
+@media screen and (min-width: 700px) {
+    nav .navbar-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    nav ul {
+        display: none;
+    }
+}
+
+/***** End Navbar *****/
+
+
+/***** Side Navbar *****/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    background-color:#31313181;
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 60px;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    text-align: end;
+    z-index: 10000000000;
+    cursor: pointer;
+}
+
+.sidenav a {
+    padding: 38px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1rem;        
+    font-family: 'SF Mono', sans-serif;                                        
+    letter-spacing: 2px;
+    color:#fff;
+    display: block;
+    transition: 0.5s;
+    font-family: 'Righteous', cursive;
+    margin-right: 34px;
+}
+
+.sidenav span {
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color:#dc3545;
+    display: block;
+}
+
+.sidenav a:hover {
+    color:#407396;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    bottom: 800px;
+    right: 40px;
+    top: 21px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 100000000000000000000000000000;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/***** End Side Navbar *****/
+
+
+
+
+/***** Start Header CSS *****/
+
+*{
+    margin: 0;
+    padding: 0 ;
+} 
+
+body{
+    font-family: sans-serif;
+}
+
+.title{
+    width: 100%;
+    position: absolute;
+    top: 30vh;
+    height: 80px;
+    color: #fff;
+}
+
+.heading1{
+   margin: auto;
+   font-size: 4rem;
+}
+
+.title-para{
+    padding: 10px 120px;
+}
+
+.area{
+    background: linear-gradient(180deg,#9b158a,#6b01ab,#141414);
+    height: 100vh;
+    width: 100%;
+    background-size: 200%;
+}
+
+
+.box{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box span{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255, 0.2);
+    animation: animate 25s linear;
+    border-radius: 50%;
+    bottom: -150px;
+    animation-iteration-count: infinite;
+}
+
+
+.box span:nth-child(1){
+    right: 55%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.box span:nth-child(2){
+    left: 90%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.box span:nth-child(3){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+    animation-duration: 4s;
+}
+
+.box span:nth-child(4){
+    left: 20%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.box span:nth-child(5){
+    left: 35%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.box span:nth-child(6){
+    left: 60%;
+    width: 115px;
+    height: 115px;
+    animation-delay: 3s;
+}
+
+.box span:nth-child(7){
+    left: 41%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.box span:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.box span:nth-child(9){
+    left: 6%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 36s;
+}
+
+.box span:nth-child(10){
+    left: 11%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+/***** background animation keyframes *****/
+
+@keyframes animate {
+    0%{
+        transform: translateY(0)rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(1000deg);
+        opacity: 0;
+    }
+}
+
+
+/***** End Header CSS *****/
+
+
+/***** Subject *****/
+
+.Heading{
+    padding: 100px 0 50px  0;
+    color:  rgb(82, 78, 78);
+    margin-bottom: 70px;
+    text-decoration: underline;
+    z-index: 10000000;
+}
+
+#subject{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 10px;
+    text-align: center;
+}
+
+#subject img{
+    height: 200px;
+    width: 200px;
+    margin: 0px 40px;
+    border-radius: 50%;
+}
+#subject img:hover{
+    box-shadow: 0px 0px 10px #440006, 0px 0px 20px #440006;
+}
+#subject p{
+    color: #212529;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+/***** End Subject *****/
+footer span{
+    font-size: 14px;
+}
+
+
+/********* PAGE# #  *********/
+
+/***** STARTNOTEpdf  *****/
+
+.section{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-bottom: 1px solid #c5c5c5;
+    margin: 20px 50px;
+    border-radius: 10px;
+    border-left: 10px solid rgb(104, 18, 37);
+}
+
+.h-subject{
+  margin: 100px 0px 50px 50px;
+  text-align: left;
+  color: #212529;
+  text-decoration: underline;
+}
+
+.lists{
+    list-style: none;  
+    padding: 0;
+}
+
+.item{
+  margin:10px;
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+
+.Description{
+ color: #83838b;
+ cursor: pointer;
+ font-weight: bold;
+ font-size: 1.2em;
+ padding: 20px 30px;
+}
+
+.Detail{
+  padding: 0px 0px;
+  margin: 0px 25px;
+}
+
+.hide{
+    display: none;
+}
+
+.color{
+  color: black;
+}
+
+/* media queries */
+
+@media (max-width: 400px) {
+
+  .Defination{
+    width: 330px;
+}
+.section{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-bottom: 1px solid #c5c5c5;
+  margin: 20px 10px;
+  border-radius: 10px;
+  border-left: 10px solid rgb(104, 18, 37);
+}
+}
+
+
+@media (min-width:700px) {
+  .Defination{
+    width: 500px;
+  }
+}
+
+@media (min-width:790px) {
+  .Defination{
+    width: 700px;
+}
+}
+
+/***** END OF NOTEpdf  *****/
+
+
