@@ -183,13 +183,14 @@ body {
     position: absolute;
     top: 30vh;
     height: 80px;
-    color: #fff;
+    color: #c5c5c5;
 }
 
 .heading1 {
-    margin: auto;
+    text-align: center;
+    margin: 0px 10vw;
     font-family: 'Paytone One', sans-serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .title-para {
@@ -217,7 +218,7 @@ body {
     display: block;
     width: 20px;
     height: 20px;
-    background: rgb(255, 255, 255, 0.2);
+    background: #141414;
     animation: animate 25s linear;
     border-radius: 50%;
     bottom: -150px;
