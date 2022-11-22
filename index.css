@@ -108,7 +108,7 @@ nav button {
     z-index: 5;
     top: 0;
     right: 0;
-    background-color: #31313181;
+    background-color: #1a1a1a;
     overflow-x: hidden;
     transition: 0.2s;
     padding-top: 60px;
@@ -122,13 +122,12 @@ nav button {
 .sidenav a {
     padding: 38px 8px 8px 32px;
     text-decoration: none;
-    font-size: 1rem;
-    font-family: "SF Mono", sans-serif;
+    font-size: 1rem;    
+    font-family: 'Paytone One', sans-serif;
     letter-spacing: 2px;
-    color: #fff;
+    color: #d8d8d8;
     display: block;
     transition: 0.5s;
-    font-family: "Righteous", cursive;
     margin-right: 34px;
 }
 
@@ -137,12 +136,12 @@ nav button {
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
-    color: #dc3545;
+    color: #4707a7;
     display: block;
 }
 
 .sidenav a:hover {
-    color: #407396;
+    color: #4707a7;
 }
 
 .sidenav .closebtn {
