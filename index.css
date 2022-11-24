@@ -10,6 +10,7 @@
     color: #d8d8d8;
     text-align: center;
     transition: 0.1s;
+    outline: 0px;
 }
 
 html body {
@@ -368,10 +369,10 @@ footer span {
 
 .section {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-bottom: 1px solid #c5c5c5;
+    border-bottom: 1px solid #272727;
     margin: 20px 50px;
     border-radius: 10px;
-    border-left: 10px solid rgb(104, 18, 37);
+    border-left: 10px solid rgb(255, 0, 55);
 }
 
 .h-subject {
@@ -385,6 +386,10 @@ footer span {
     list-style: none;
     padding: 0;
 }
+.lists a{
+    color: #c5c5c5;
+}
+
 
 .item {
     margin: 10px;
@@ -393,13 +398,12 @@ footer span {
 }
 
 .Description {
-    color: #83838b;
+    color: #e7e7e7;
     cursor: pointer;
     font-weight: bold;
     font-size: 1.2em;
     padding: 20px 30px;
 }
-
 .Detail {
     padding: 0px 0px;
     margin: 0px 25px;
@@ -442,3 +446,19 @@ footer span {
 }
 
 /***** END OF NOTEpdf  *****/
+
+/***** Footer *****/
+Footer .copyright{
+    background-color: #141414;
+}
+Footer{
+    background-color: #1a1a1a;
+}
+/***** End Footer *****/
+
+/* .h-subject{
+    color: #c5c5c5;
+}
+.Description .Detail .lists .item a{
+    color: #e60f0f;
+} */
