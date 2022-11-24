@@ -120,7 +120,7 @@ nav button {
 }
 
 .sidenav a {
-    padding: 38px 8px 8px 32px;
+    padding: 18px 18px;
     text-decoration: none;
     font-size: 1rem;    
     font-family: 'Paytone One', sans-serif;
@@ -128,7 +128,9 @@ nav button {
     color: #d8d8d8;
     display: block;
     transition: 0.5s;
-    margin-right: 34px;
+    margin: 20px 20vw;
+    border-radius: 20px;
+    background-color: #202020;
 }
 
 .sidenav span {
@@ -141,6 +143,7 @@ nav button {
 }
 
 .sidenav a:hover {
+    background-color: #636363;
     color: #4707a7;
 }
 
