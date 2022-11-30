@@ -368,8 +368,9 @@ footer span {
 /***** STARTNOTEpdf  *****/
 
 .section {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-bottom: 1px solid #272727;
+    box-shadow: rgb(8 8 8) 3px 4px 6px;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #1d1d1d;
     margin: 20px 50px;
     border-radius: 10px;
     border-left: 10px solid #7304a5;
